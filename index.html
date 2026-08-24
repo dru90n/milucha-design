@@ -55,54 +55,81 @@
     <!-- Section: Portofolio Showcases -->
     <div class="flex flex-col gap-4">
       <h2 class="font-bold text-sm text-slate-300 flex items-center justify-between">
-        <span>🎨 Karya Terbaru</span>
+        <span>🎨 Beragam Konsep</span>
         <span class="text-[10px] text-indigo-400 font-normal">Showcase Portfolio</span>
       </h2>
 
-      <!-- Card 1: Buchi Kids Project -->
-      <div class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-sm hover:border-indigo-500/50 transition">
-        <div class="h-36 bg-gradient-to-r from-emerald-900/40 to-slate-900 p-4 flex flex-col justify-end relative overflow-hidden">
-          <div class="absolute -right-4 -top-4 w-24 h-24 bg-emerald-500/10 rounded-full blur-xl"></div>
-          <span class="bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 text-[9px] font-bold px-2 py-0.5 rounded-full w-max mb-1">Live Project</span>
-          <h3 class="font-bold text-sm text-white">Buchi Kids Online Malang</h3>
-        </div>
-        <div class="p-3.5 flex flex-col gap-2">
-          <p class="text-[11px] text-slate-400">Website mini linktree toko kebutuhan bayi dengan integrasi 3 cabang Google/Apple Maps & WhatsApp Rotator otomatis.</p>
-          <a href="https://wa.me/6283161621138?text=Halo%20Milucha%20Design,%20saya%20mau%20tanya%20desain%20seperti%20Buchi%20Kids" target="_blank" class="w-full bg-indigo-600/20 hover:bg-indigo-600/30 text-indigo-300 text-[11px] font-semibold py-2 rounded-lg text-center transition border border-indigo-500/30">
-            Tanya Solusi Seperti Ini →
-          </a>
-        </div>
-      </div>
+<!-- Card 1: Baby Shop Project -->
+<div class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-sm hover:border-indigo-500/50 transition">
+  
+  <!-- AREA GAMBAR BARU (Menggantikan Div Gradient Blur) -->
+  <div class="h-44 w-full relative overflow-hidden">
+    <img src="Baby.jpg" alt="Baby Shop Online Showcase" class="w-full h-full object-cover object-top">
+    <!-- Overlay gradasi agar teks badge tetap terbaca jelas -->
+    <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-black/30"></div>
+    <!-- Badge Status -->
+    <span class="absolute top-3 left-3 bg-emerald-500/80 backdrop-blur-md text-white border border-emerald-400/30 text-[9px] font-bold px-2 py-0.5 rounded-full">
+      Simple But Pro
+    </span>
+  </div>
 
-      <!-- Card 2: Landing Page Kuliner -->
-      <div class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-sm hover:border-indigo-500/50 transition">
-        <div class="h-36 bg-gradient-to-r from-amber-900/40 to-slate-900 p-4 flex flex-col justify-end relative overflow-hidden">
-          <div class="absolute -right-4 -top-4 w-24 h-24 bg-amber-500/10 rounded-full blur-xl"></div>
-          <span class="bg-amber-500/20 text-amber-300 border border-amber-500/30 text-[9px] font-bold px-2 py-0.5 rounded-full w-max mb-1">Concept UI</span>
-          <h3 class="font-bold text-sm text-white">Kopi Kenangan Lokal</h3>
-        </div>
-        <div class="p-3.5 flex flex-col gap-2">
-          <p class="text-[11px] text-slate-400">Landing page promosi menu kopi kekinian dengan tombol Order GoFood/GrabFood langsung dari browser.</p>
-          <a href="https://wa.me/6283161621138?text=Halo%20Milucha%20Design,%20saya%20mau%20tanya%20landing%20page%20kuliner" target="_blank" class="w-full bg-slate-800 hover:bg-slate-700 text-slate-300 text-[11px] font-semibold py-2 rounded-lg text-center transition border border-slate-700">
-            Lihat Konsep
-          </a>
-        </div>
-      </div>
+  <!-- Detail Informasi -->
+  <div class="p-3.5 flex flex-col gap-2">
+    <h3 class="font-bold text-sm text-white">Baby Shop Online</h3>
+    <p class="text-[11px] text-slate-400">Website mini pengganti linktree toko kebutuhan bayi dengan integrasi Google/Apple Maps & WhatsApp Rotator otomatis.</p>
+    <a href="https://wa.me/6283161621138?text=Halo%20Milucha%20Design,%20saya%20mau%20tanya%20desain%20seperti%20Buchi%20Kids" target="_blank" class="w-full bg-indigo-600/20 hover:bg-indigo-600/30 text-indigo-300 text-[11px] font-semibold py-2 rounded-lg text-center transition border border-indigo-500/30">
+      Tanya Solusi Seperti Ini →
+    </a>
+  </div>
 
-      <!-- Card 3: Healthcare Booking UI -->
-      <div class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-sm hover:border-indigo-500/50 transition">
-        <div class="h-36 bg-gradient-to-r from-blue-900/40 to-slate-900 p-4 flex flex-col justify-end relative overflow-hidden">
-          <div class="absolute -right-4 -top-4 w-24 h-24 bg-blue-500/10 rounded-full blur-xl"></div>
-          <span class="bg-blue-500/20 text-blue-300 border border-blue-500/30 text-[9px] font-bold px-2 py-0.5 rounded-full w-max mb-1">UI Prototype</span>
-          <h3 class="font-bold text-sm text-white">Klinik Sehat Reservations</h3>
-        </div>
-        <div class="p-3.5 flex flex-col gap-2">
-          <p class="text-[11px] text-slate-400">Antarmuka pendaftaran jadwal dokter & layanan klinik secara online via formulir WhatsApp cepat.</p>
-          <a href="https://wa.me/6283161621138?text=Halo%20Milucha%20Design,%20saya%20mau%20tanya%20desain%20aplikasi/klinik" target="_blank" class="w-full bg-slate-800 hover:bg-slate-700 text-slate-300 text-[11px] font-semibold py-2 rounded-lg text-center transition border border-slate-700">
-            Lihat Konsep
-          </a>
-        </div>
-      </div>
+</div>
+
+<!-- Card 2: Landing Page Coffee Shop -->
+<div class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-sm hover:border-indigo-500/50 transition">
+  
+  <!-- AREA GAMBAR BARU (Menggantikan Div Gradient Blur) -->
+  <div class="h-44 w-full relative overflow-hidden">
+    <img src="Coffee.jpg" alt="Landing Page Coffee Shop" class="w-full h-full object-cover object-top">
+    <!-- Overlay gradasi agar teks badge tetap terbaca jelas -->
+    <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-black/30"></div>
+    <!-- Badge Status -->
+    <span class="absolute top-3 left-3 bg-emerald-500/80 backdrop-blur-md text-white border border-emerald-400/30 text-[9px] font-bold px-2 py-0.5 rounded-full">
+      Concept UI
+    </span>
+  </div>
+
+  <!-- Detail Informasi -->
+  <div class="p-3.5 flex flex-col gap-2">
+    <h3 class="font-bold text-sm text-white">Landing Page Coffee Shop</h3>
+    <p class="text-[11px] text-slate-400">Landing page promosi menu kopi kekinian dengan tombol Order GoFood/GrabFood langsung dari browser.</p>
+    <a href="https://wa.me/6283161621138?text=Halo%20Milucha%20Design,%20saya%20mau%20tanya%20desain%20seperti%20Buchi%20Kids" target="_blank" class="w-full bg-indigo-600/20 hover:bg-indigo-600/30 text-indigo-300 text-[11px] font-semibold py-2 rounded-lg text-center transition border border-indigo-500/30">
+      Tanya Solusi Seperti Ini →
+    </a>
+  </div>
+      
+<!-- Card 3: Healthcare Booking UI -->
+<div class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-sm hover:border-indigo-500/50 transition">
+  
+  <!-- AREA GAMBAR BARU (Menggantikan Div Gradient Blur) -->
+  <div class="h-44 w-full relative overflow-hidden">
+    <img src="Health.jpg" alt="Klinik Sehat Reservations" class="w-full h-full object-cover object-top">
+    <!-- Overlay gradasi agar teks badge tetap terbaca jelas -->
+    <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-black/30"></div>
+    <!-- Badge Status -->
+    <span class="absolute top-3 left-3 bg-emerald-500/80 backdrop-blur-md text-white border border-emerald-400/30 text-[9px] font-bold px-2 py-0.5 rounded-full">
+      UI Prototype
+    </span>
+  </div>
+
+  <!-- Detail Informasi -->
+  <div class="p-3.5 flex flex-col gap-2">
+    <h3 class="font-bold text-sm text-white">Klinik Sehat Reservations</h3>
+    <p class="text-[11px] text-slate-400">Antarmuka pendaftaran jadwal dokter & layanan klinik secara online via formulir WhatsApp cepat.</p>
+    <a href="https://wa.me/6283161621138?text=Halo%20Milucha%20Design,%20saya%20mau%20tanya%20desain%20seperti%20Buchi%20Kids" target="_blank" class="w-full bg-indigo-600/20 hover:bg-indigo-600/30 text-indigo-300 text-[11px] font-semibold py-2 rounded-lg text-center transition border border-indigo-500/30">
+      Tanya Solusi Seperti Ini →
+    </a>
+  </div>
+  
     </div>
 
     <!-- Footer -->
